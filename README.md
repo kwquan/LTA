@@ -26,4 +26,8 @@ Edit train_dag.py
 ![alt text](https://github.com/kwquan/LTA/blob/main/api_key.png)
 1) Change API key to your own[sign-up on LTA website for personal key]
 
-
+Edit docker-compose.yaml
+![alt text](https://github.com/kwquan/LTA/blob/main/docker_compose_1.png)
+![alt text](https://github.com/kwquan/LTA/blob/main/docker_compose_2.png)
+1) Edit PostgreSQL username, password & db as desired
+2) Edit PGAdmin email & password as desired
