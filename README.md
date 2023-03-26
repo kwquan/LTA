@@ -2,7 +2,7 @@
 
 ### Intro
 ![alt text](https://github.com/kwquan/LTA/blob/main/process.png)
-Tools: Airflow, Docker, PostgreSQL
+Tools: Airflow, Docker, PostgreSQL <br>
 Prerequisites: Airflow, PostgreSQL, PgAdmin, Docker
 
 This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the following:
