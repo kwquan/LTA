@@ -1,5 +1,7 @@
 # LTA ELT
 ![alt text](https://github.com/kwquan/LTA/blob/main/process.png)
+Tools: Airflow, Docker, PostgreSQL
+
 This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the following:
 1) Calls the LTA API to get CrowdLevel for each station on the East-West line[https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf]
 2) Saves the data to volume as temp.tsv[under dags]
