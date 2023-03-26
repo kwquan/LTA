@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS stations (
+    id SERIAL PRIMARY KEY,
+    Station VARCHAR(50) NOT NULL,
+    StartTime TIMESTAMP NOT NULL,
+    EndTime TIMESTAMP NOT NULL,
+    CrowdLevel VARCHAR(10) NOT NULL
+)
