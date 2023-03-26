@@ -12,6 +12,7 @@ This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the
 5) Checks if there are at least 30 minutes worth of records. If yes, print out stations whose CrowdLevel has changed in the past 30 minutes
 
 Set-up:
+![alt text](https://github.com/kwquan/LTA/blob/main/folders.png)
 1) Create a folder called 'Materials'
 2) Create a subfolder called sql
 3) Place train_dag.py under 'dags'
