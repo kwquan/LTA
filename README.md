@@ -33,6 +33,8 @@ Edit docker-compose.yaml
 2) Edit PGAdmin email & password as desired
 
 ### Run
+![alt text](https://github.com/kwquan/LTA/blob/main/create_db_1.png)
+![alt text](https://github.com/kwquan/LTA/blob/main/create_db_2.png)
 
 1) Open up Visual Studio Code terminal & run 'docker-compose up -d'
 2) Go to PgAdmin page on port 15432, login & create database
