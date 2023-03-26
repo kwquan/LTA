@@ -37,7 +37,7 @@ Edit docker-compose.yaml
 ![alt text](https://github.com/kwquan/LTA/blob/main/create_db_2.png)
 
 1) Open up Visual Studio Code terminal & run 'docker-compose up -d'
-2) Go to PgAdmin page on port 15432, login & create database
+2) Go to PgAdmin page on port 15432, login & create database[see above]
 3) Go to Airflow page on port 8080, login & run train_dag.py
 4) If successful, graph view should be similar to process.png
 
