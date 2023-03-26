@@ -45,3 +45,5 @@ Edit docker-compose.yaml
 
 1) PostgreSQL query results similar to postgres_results.png
 2) Airflow log results similar to airflow_results.png[for task t1]
+3) In the examples above, I have 30 minutes worth of data[93 rows] in my stations table. The log for task t1 prints 'EW29' as the only station whose 
+CrowdLevel has changed in the past 30 minutes
