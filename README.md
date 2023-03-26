@@ -1,4 +1,4 @@
-# LTA ELT
+# LTA ELT(Real-time Crowd Density)
 
 ### Intro
 ![alt text](https://github.com/kwquan/LTA/blob/main/process.png)
