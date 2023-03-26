@@ -7,7 +7,7 @@ Prerequisites:
 Airflow, PostgreSQL, PgAdmin, Docker
 
 This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the following:
-1) Calls the LTA API to get CrowdLevel for each station on the East-West line[https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf]
+1) Calls the LTA API to get CrowdLevel for each station on the East-West line[every 10 minutes] [https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf]
 2) Saves the data to volume as temp.tsv[under dags]
 3) Creates stations table in PostgreSQL if it doesn't exists
 4) Pushes temp.tsv to stations table
@@ -31,3 +31,17 @@ Edit docker-compose.yaml
 ![alt text](https://github.com/kwquan/LTA/blob/main/docker_compose_2.png)
 1) Edit PostgreSQL username, password & db as desired
 2) Edit PGAdmin email & password as desired
+
+### Run
+
+1) Open up Visual Studio Code terminal & run 'docker-compose up -d'
+2) Go to PgAdmin page on port 15432, login & create database
+3) Go to Airflow page on port 8080, login & run train_dag.py
+4) If successful, graph view should be similar to process.png
+
+### Results
+![alt text](https://github.com/kwquan/LTA/blob/main/postgres_results.png)
+![alt text](https://github.com/kwquan/LTA/blob/main/airflow_results.png)
+
+1) PostgreSQL query results similar to postgres_results.png
+2) Airflow log results similar to airflow_results.png[for task t1]
