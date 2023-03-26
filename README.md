@@ -3,8 +3,7 @@
 ### Intro
 ![alt text](https://github.com/kwquan/LTA/blob/main/process.png)
 Tools: Airflow, Docker, PostgreSQL
-Prerequisites:
-Airflow, PostgreSQL, PgAdmin, Docker
+Prerequisites: Airflow, PostgreSQL, PgAdmin, Docker
 
 This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the following:
 1) Calls the LTA API to get CrowdLevel for each station on the East-West line[every 10 minutes] [https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf]
