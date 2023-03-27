@@ -1,11 +1,11 @@
-# LTA ELT(Real-time Crowd Density)
+# LTA ETL(Real-time Crowd Density)
 
 ### Intro
 ![alt text](https://github.com/kwquan/LTA/blob/main/process.png)
 Tools: Airflow, Docker, PostgreSQL <br>
 Prerequisites: Airflow, PostgreSQL, PgAdmin, Docker
 
-This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the following:
+This project is an end-to-end ETL[Extract,Transform,Load] pipeline that does the following:
 1) Calls the LTA API to get CrowdLevel for each station on the East-West line[every 10 minutes] [https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf]
 2) Saves the data to volume as temp.tsv[under dags]
 3) Creates stations table in PostgreSQL if it doesn't exists
